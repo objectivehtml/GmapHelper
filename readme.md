@@ -24,6 +24,8 @@ Basic Usage
  
     helper.center();
 
+http://objectivehtml.dev/google-maps/examples/jquery
+
 Usage with jQuery Tabs
 ----------------------
 
@@ -38,3 +40,14 @@ Usage with jQuery Tabs
 		});
 	});
 	
+	
+Usage with Twitter Bootstrap
+----------------------
+
+	$(function() {				
+		var helper = new GmapHelper('map');
+	
+		$('a[data-toggle="tab"]').on('shown', function (e) {
+			helper.center();
+		});
+	});
