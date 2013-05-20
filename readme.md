@@ -8,7 +8,7 @@ GmapHelper
 Overview
 --------
 
-A simple helper class for making custom implementations withGoogle Maps for ExpressionEngine easier.
+A simple helper class for making custom implementations with Google Maps for ExpressionEngine easier.
 
 License
 -------
