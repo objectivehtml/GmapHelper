@@ -32,7 +32,8 @@ Usage with jQuery Tabs
 		var helper = new GmapHelper('map');
 	
 		 $( "#tabs" ).tabs({
-			activate: function() {
+		 	// older versions of jQuery UI will use the show() method instead of activate()
+			activate: function() { 
 			   helper.center();
 			}
 		});
