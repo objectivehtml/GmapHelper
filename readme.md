@@ -34,7 +34,7 @@ Usage with jQuery Tabs
 		 $( "#tabs" ).tabs({
 			activate: function() {
 			   helper.center();
-				}
+			}
 		});
 	});
 	
