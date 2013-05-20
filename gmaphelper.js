@@ -1,7 +1,7 @@
 /**
  * GmapHelper
  *
- * A simpler helper class for making custom implementations with
+ * A simpler helpe class for making custom implementations with
  * Google Maps for ExpressionEngine easier.
  *
  * @license	https://objectivehtml.com/google-maps/license
