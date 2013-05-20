@@ -27,8 +27,7 @@ Basic Usage
 Usage with jQuery Tabs
 ----------------------
 
-	$(function() {
-			
+	$(function() {			
 		var helper = new GmapHelper('map');
 	
 		 $( "#tabs" ).tabs({
