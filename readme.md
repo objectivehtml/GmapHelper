@@ -19,12 +19,12 @@ https://objectivehtml.com/google-maps/license
 Basic Usage
 -----------
 
+http://objectivehtml.dev/google-maps/examples/jquery
+
     // 'map' is the same as your id parameter in the exp:gmap:init tag
     var helper = new GmapHelper('map'); 
  
     helper.center();
-
-http://objectivehtml.dev/google-maps/examples/jquery
 
 Usage with jQuery Tabs
 ----------------------
