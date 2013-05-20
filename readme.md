@@ -23,3 +23,18 @@ Basic Usage
     var helper = new GmapHelper('map'); 
  
     helper.center();
+
+Usage with jQuery Tabs
+----------------------
+
+	$(function() {
+			
+		var helper = new GmapHelper('map');
+	
+		 $( "#tabs" ).tabs({
+			activate: function() {
+			   helper.center();
+				}
+		});
+	});
+	
