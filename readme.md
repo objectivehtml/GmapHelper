@@ -25,6 +25,11 @@ http://objectivehtml.dev/google-maps/examples/jquery
     var helper = new GmapHelper('map'); 
  
     helper.center();
+    
+    // Alternatively, if you add true to first argument in the center() method,
+    // you will tell the script to use the default zoom from the initialized map
+    
+    helper.center(true);
 
 Usage with jQuery Tabs
 ----------------------

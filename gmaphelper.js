@@ -5,8 +5,8 @@
  * Google Maps for ExpressionEngine easier.
  *
  * @license	https://objectivehtml.com/google-maps/license
- * @version 1.0.0
- * @build	2013-05-20
+ * @version 1.0.1
+ * @build	2013-06-11
  * 
  * Example
  * -------------------------------------------------------------------
@@ -30,10 +30,10 @@ function GmapHelper(id) {
 		google.maps.event.trigger(t.map, 'resize');	
 	}
 	
-	t.center = function() {
+	t.center = function(useDefault) {
 		this.reset();
 		
-		if(t.markers.length > 0) {
+		if(t.markers.length > 0 && !useDefault) {
 			var bounds = new google.maps.LatLngBounds();
 		
 			for(var x in t.markers) {
