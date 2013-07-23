@@ -47,7 +47,7 @@ Usage with jQuery Tabs
 	
 	
 Usage with Twitter Bootstrap
-----------------------
+----------------------------
 
 	$(function() {				
 		var helper = new GmapHelper('map');
@@ -56,3 +56,18 @@ Usage with Twitter Bootstrap
 			helper.center();
 		});
 	});
+
+Usage with Foundation Tabs (v3)
+-------------------------------
+
+$(function() {
+	var helper = new GmapHelper('map');
+
+	$('.tabs dd').click(function(e) {
+		setTimeout(function() {
+			helper.center();	
+		}, 100);
+
+		e.preventDefault();
+	});
+});
