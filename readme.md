@@ -60,14 +60,14 @@ Usage with Twitter Bootstrap
 Usage with Foundation Tabs (v3)
 -------------------------------
 
-$(function() {
-	var helper = new GmapHelper('map');
+	$(function() {
+		var helper = new GmapHelper('map');
 
-	$('.tabs dd').click(function(e) {
-		setTimeout(function() {
-			helper.center();	
-		}, 100);
+		$('.tabs dd').click(function(e) {
+			setTimeout(function() {
+				helper.center();	
+			}, 100);
 
-		e.preventDefault();
+			e.preventDefault();
+		});
 	});
-});
