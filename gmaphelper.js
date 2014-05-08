@@ -19,9 +19,14 @@
 function GmapHelper(id) {
 	var t = this;
 	
-	t.id        = id;
-	t.dom       = $('#'+t.id+'_map');
-	t.map       = window[id+'_map'] ? window[id+'_map'] : window[id];
+	t.id = id;
+	t.dom = $('#'+t.id+'_map');
+
+	if(!t.dom.length) {
+		t.dom = $('#'+t.id)
+	}
+
+	t.map       = window[id+'_map'];
 	t.markers   = window[id+'_markers'];
 	t.options   = window[id+'_options'];
 	t.mapCenter = t.map.getCenter();
